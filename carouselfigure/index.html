@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>海贼王轮播图</title>
+		<link href="main.css" rel="stylesheet" type="text/css"/>
+		<script src="change.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div class="container">
+			<a href="javascript:prev();" id="prev">&lt;</a>
+			<a href="javascript:next();" id="next">&gt;</a>
+			<div class="buttoncon">
+				<span class="cirbutton on" index="1"></span>
+				<span class="cirbutton" index="2"></span>
+				<span class="cirbutton" index="3"></span>
+				<span class="cirbutton" index="4"></span>
+				<span class="cirbutton" index="5"></span>
+			</div>
+			<div id="picture" style="left: -1024px;">//在此处设置left值是为了方便后续移动的时候获取left值
+				<img src="5.jpg" / index='5'>
+				<img src="1.jpg" / index='1'>
+				<img src="2.jpg" / index='2'>
+				<img src="3.jpg" / index='3'>
+				<img src="4.jpg" / index='4'>
+				<img src="5.jpg" / index='5'>
+				<img src="1.jpg" / index='1'>
+			</div>
+		</div>
+	</body>
+</html>
